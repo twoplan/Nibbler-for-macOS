@@ -23,7 +23,7 @@ Lc0 needs a weights file (network).
 - the first time a new network size is selected for backend opencl, __leelaz_opencl_tuning__ gets created or updated. Depending on your gpu, this can take some minutes.
 - use the opencl backend on MacBooks with care. It could __overheat__ your system. Check this with Intel power gadget https://software.intel.com/en-us/articles/intel-power-gadget 
 - all settings can manually be edited; they are saved in
-~/Library/Application Support/Nibbler/__config.json__
+`~/Library/Application Support/Nibbler/config.json`
 - got these nps values with blas and opencl for different network sizes:
 ```
 	size 320x24: (60130, go nodes 1000)	    38 nps (blas) |  42 nps (opencl)
