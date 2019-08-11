@@ -13,11 +13,17 @@ Lc0 needs a weights file (network).
 
 
 ## Usage
+- download the release file (not the source code) from https://github.com/twoplan/Nibbler-for-macOS/releases
 - unpack this zip-file to a directory of your choice (you probably just did this)
 - start Nibbler.app (use right click and open)
 - from the menu entry `Engine` select your path to a (previous downloaded) weights file and the lc0 chess engine (inside this folder, named lc0)
 - choose a backend: blas (uses cpu) or opencl (uses gpu)
 - you are ready now; take a look at menu entry `Electron/About`
+
+## Version of Nibbler is ahead to Nibbler-for-macOS
+You can help yourself:
+- download and unpack the latest **source code** of Nibbler from https://github.com/fohristiwhirl/nibbler/releases
+- replace all files in Nibbler.app/Contents/Resources/app/ with them
 
 ## Hints
 - the first time a new network size is selected for backend opencl, __leelaz_opencl_tuning__ gets created or updated. Depending on your gpu, this can take some minutes.
