@@ -1,16 +1,16 @@
 # Nibbler-for-macOS
-Combines nibbler chess gui with electron framework and Leela chess (Lc0) for macOS
+This repository combines the [Nibbler chess GUI](https://github.com/fohristiwhirl/nibbler) with [Leela Chess Zero](https://lczero.org/), the UCI-compliant neural network chess engine, as prebuilt binaries for **MacOS**.
 
+[@fohristiwhirl](https://github.com/fohristiwhirl) is the creator of the Nibbler chess GUI. Without a MacOS system, it's challenging to integrate Nibbler, with the [Electron software framework](https://electronjs.org/) for MacOS. Until he figured this out and provides a MacOS build of Nibbler, you can use this [Nibbler-for-macOS](https://github.com/twoplan/Nibbler-for-macOS/releases) release. It contains
 
-__Nibbler__ Chess gui from https://github.com/fohristiwhirl/nibbler
+- __Nibbler__ Chess GUI from https://github.com/fohristiwhirl/nibbler
 
-__Electron__ Framework from https://github.com/electron/electron
+- __Electron__ Framework from https://github.com/electron/electron
 
-Chess engine __Lc0__ from https://github.com/LeelaChessZero/lc0 
+- Chess engine __Lc0__ from https://github.com/LeelaChessZero/lc0 
 compiled with clang 9.0 for OpenCL and BLAS (Apple vecLib) backends 
 
-Lc0 needs a weights file (network).
-
+The chess engine Lc0 needs a [weights file](https://github.com/twoplan/Nibbler-for-macOS#hints) (network). 
 
 ## Usage
 - download the release file (not the source code) from https://github.com/twoplan/Nibbler-for-macOS/releases
