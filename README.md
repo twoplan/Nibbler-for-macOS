@@ -23,7 +23,7 @@ The chess engine Lc0 needs a [weights file](https://github.com/twoplan/Nibbler-f
 ## Version of Nibbler is ahead to Nibbler-for-macOS
 You can help yourself:
 - download and unpack the latest **source code** of Nibbler from https://github.com/fohristiwhirl/nibbler/releases
-- replace all files in Nibbler.app/Contents/Resources/app/ with them
+- replace all files in `Nibbler.app/Contents/Resources/app/` with them
 
 ## Hints
 - the first time a new network size is selected for backend opencl, __leelaz_opencl_tuning__ gets created or updated. Depending on your gpu, this can take some minutes.
